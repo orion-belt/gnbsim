@@ -33,6 +33,12 @@ OpenSSL version: OpenSSL 1.1.0l  10 Sep 2019
 ```bash
 $ docker build --target gnbsim --tag gnbsim:latest --file docker/Dockerfile.ubuntu.20.04 .
 ```
+*** To build on RHEL 8 based system
+
+```
+$ podman build --target gnbsim --tag gnbsim:latest --file docker/Dockerfile.rhel.8 .
+```
+
 * Clean intermediate containers 
 
 ```bash
